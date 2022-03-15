@@ -1,0 +1,177 @@
+/** Imported Fonts: 'Rajdhani', 'Smooch Sans' **/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&family=Smooch+Sans:wght@300;700&display=swap');
+
+/** Universal Styles **/
+
+
+
+ html {
+        font-size: 16px;
+    }
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.body {
+    position: relative;
+    background-color: rgb(249, 141, 0);
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    padding-top: 100px;
+}
+
+/** Header **/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    background-color: white;
+    z-index: 100;
+}
+
+header .content {    
+    display: flex;
+    align-content: center;
+    
+}
+
+a#home.indexbutton {
+    flex: 1;
+    color:rgb(249, 141, 0);
+    font-size: 2rem;   
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav.links {
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+#services {
+    padding: 20px;
+    color:rgb(249, 141, 0);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#jobs {
+    padding: 20px;
+    color:rgb(249, 141, 0);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#aboutus {
+    padding: 20px;
+    color:rgb(249, 141, 0);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/** Main **/
+
+
+main { 
+    margin-left: 30px;
+}
+
+
+#logo {
+    font-family: 'Smooch Sans', sans-serif;
+    margin-left: 30px;
+
+}
+
+#title {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#slogan {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/** Images **/
+    section {
+        padding-left: 6rem;
+    }
+
+#imagegallery {
+    justify-content: center;
+    display: grid;
+    width: 700px;
+    height: 1000px;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 30px;
+    
+}
+
+#oranges {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    max-width: 100%;
+}
+
+#cube {
+    grid-column: 2/ 2;
+    grid-row: 2 / 2;
+    max-width: 100%;
+}
+
+#woman {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+    max-width: 100%;
+}
+
+.catchphrase {
+    font-size: 5rem;
+    font-family: 'Smooch Sans', sans-serif;
+    display: flex;
+}
+
+#dream {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#create {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#inspire {
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#door {
+    
+}
+
+#umbrellas {
+   
+}
+
+
